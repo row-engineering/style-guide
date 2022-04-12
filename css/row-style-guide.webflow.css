@@ -74,6 +74,10 @@ a {
   background-color: #0dcc6c;
 }
 
+.brightcolor.purple {
+  background-color: #a732d0;
+}
+
 .bodycolor {
   display: -webkit-box;
   display: -webkit-flex;
@@ -100,6 +104,10 @@ a {
 
 .bodycolor.teal {
   background-color: #fbf3ff;
+}
+
+.bodycolor.purple {
+  background-color: #fffbf3;
 }
 
 .bodycolor.redmedium {
@@ -132,6 +140,10 @@ a {
 
 .bodycolor.tealmedium {
   background-color: #f4e3ff;
+}
+
+.bodycolor.purplemedium {
+  background-color: #ffe9cf;
 }
 
 .bodycolor.magentamedium {
