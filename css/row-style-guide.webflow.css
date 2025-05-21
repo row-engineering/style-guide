@@ -103,7 +103,16 @@
   padding-bottom: 20px;
   font-family: Moderat, sans-serif;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+
+._5_heading {
+  padding-bottom: 20px;
+  font-family: Moderat, sans-serif;
+  color: #000;
+  font-size: 16px;
   line-height: 1.1em;
   font-weight: 700;
 }
@@ -223,14 +232,131 @@ p:last-child {
   object-fit: cover;
 }
 
-.color-info {
-  padding: 20px 0;
+.buttonblock {
+  -ms-grid-columns: repeat(3, min-content);
+  grid-template-columns: repeat(3, min-content);
+}
+
+.meta-info {
+  padding-top: 20px;
   font-family: Inputmono, sans-serif;
   color: #000;
   font-size: 12px;
   line-height: 1.35em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button button {
+  border-radius: 3px;
+}
+
+.cta-btn button {
+  font-family: Inputmono, monospace;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 85px;
+  padding: 0 10px;   /* 0 20px */
+  border: 1px solid #242EF7;
+  cursor: pointer;
+  transition: background-color ease-out 150ms, color ease-out 150ms;
+}
+
+.button:not(.default) button {
+  pointer-events: none;
+}
+
+.button-solid button {
+  color: white;
+  background-color: #242EF7;
+}
+
+.button-solid button:hover,
+.button-solid.hover button {
+  color: #242EF7;
+  background-color: white;
+}
+
+.button-solid button:focus,
+.button-outline button:focus,
+.button-solid.focus button,
+.button-outline.focus button {
+  outline: 1px dotted #242EF7;
+}
+
+.button-outline button {
+  color: #242EF7;
+  background-color: white;
+}
+
+.button-outline button:hover,
+.button-outline.hover button {
+  color: white;
+  background-color: #242EF7;
+}
+
+.code-block-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-block {
+  background-color: #F5F5F5;
+  padding: 20px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.example-list {
+  padding-left: 10px;
+}
+
+.example-list-item {
+  background-color: #CACACA;
+  margin-bottom: 10px;
+  max-width: 350px;
+}
+
+.example-list-item::marker {
+  color: #242EF7
+}
+
+.close-btn button {
+  background-color: transparent;
+}
+
+.close-btn button {
+  width: 30px;
+  height: 30px;
+}
+
+.close-btn svg {
+  width: 100%;
+  height: 100%;
+  transition: fill ease-out 150ms;
+}
+
+.close-btn.default svg {
+  fill: #242EF7;
+}
+
+.close-btn button:hover svg,
+.close-btn.hover button svg {
+  fill: #0B2566;
+}
+
+.close-btn button:focus,
+.close-btn.focus button {
+  outline: 1px dotted #242EF7;
 }
 
 .spaceholder {
@@ -1029,7 +1155,7 @@ p:last-child {
     position: static;
   }
 
-  .color-info {
+  .meta-info {
     width: 50%;
   }
 
@@ -1242,7 +1368,7 @@ p:last-child {
     grid-column-gap: 20px;
   }
 
-  .color-info {
+  .meta-info {
     font-size: 10px;
   }
 
@@ -1359,7 +1485,7 @@ p:last-child {
     grid-template-columns: 70vw 70vw;
   }
 
-  .color-info {
+  .meta-info {
     width: 40%;
   }
 
