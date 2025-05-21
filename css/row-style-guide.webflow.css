@@ -607,14 +607,6 @@ p:last-child {
   border-bottom-color: #000;
 }
 
-.text-span-2 {
-  font-family: Inputmono, sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-}
-
 .description {
   margin-bottom: 0px;
 }
@@ -672,10 +664,6 @@ p:last-child {
   width: 50%;
   margin-right: 40px;
   padding-right: 20px;
-}
-
-.text-span-3 {
-  margin-left: -9px;
 }
 
 .list_item {
@@ -845,18 +833,6 @@ p:last-child {
   font-weight: 700;
 }
 
-.text-span-4 {
-  font-family: Inputmono, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.text-span-5 {
-  font-family: Inputmono, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .category {
   padding-right: 40px;
   padding-left: 40px;
@@ -947,108 +923,6 @@ p:last-child {
   line-height: 1.15em;
 }
 
-.text-span-22 {
-  border-bottom: 2px solid #cacaca;
-}
-
-.person_intro {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40px;
-  display: block;
-  width: 600px;
-  height: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  -ms-grid-row-align: auto;
-  align-self: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-}
-
-.text-span-23 {
-  font-family: 'Gt sectra book', sans-serif;
-  color: #000;
-  font-size: 21px;
-  line-height: 1.35em;
-}
-
-.scrollytextblock {
-  max-width: 600px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.person_intro_phoneblock {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 80px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-}
-
-.text-span-24 {
-  text-align: left;
-}
-
-.image-124 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5vh;
-  height: 90vh;
-  padding-left: 0px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 10px;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
-.body-3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px 60px 60px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: #fff3fa;
-}
-
 .link-2 {
   text-decoration: underline;
 }
@@ -1069,14 +943,6 @@ p:last-child {
   border-bottom: 1px dotted #cacaca;
   font-family: Moderat, sans-serif;
   font-size: 20px;
-}
-
-.image-132 {
-  width: 100%;
-}
-
-.image-133 {
-  width: 100%;
 }
 
 .footer {
@@ -1104,11 +970,6 @@ p:last-child {
   line-height: 1.35em;
   font-weight: 400;
   text-align: left;
-}
-
-.image-134 {
-  -o-object-fit: fill;
-  object-fit: fill;
 }
 
 .link-block-4 {
@@ -1285,34 +1146,6 @@ p:last-child {
     line-height: 1.05em;
   }
 
-  .text-span-22 {
-    border-bottom-width: 1px;
-    line-height: 1.05em;
-  }
-
-  .person_intro {
-    position: static;
-    top: 0px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .scrollytextblock {
-    max-width: none;
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    -ms-grid-row-align: stretch;
-    align-self: stretch;
-  }
-
-  .person_intro_phoneblock {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
   .footer {
     grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
@@ -1434,10 +1267,6 @@ p:last-child {
     line-height: 1.05em;
   }
 
-  .text-span-22 {
-    line-height: 1.05em;
-  }
-
   .image-123 {
     display: block;
     width: auto;
@@ -1446,17 +1275,6 @@ p:last-child {
     -ms-flex-item-align: end;
     align-self: flex-end;
     text-align: right;
-  }
-
-  .scrollytextblock {
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    -ms-grid-row-align: stretch;
-    align-self: stretch;
-  }
-
-  .person_intro_phoneblock {
-    margin-bottom: 60px;
   }
 
   .body-3 {
