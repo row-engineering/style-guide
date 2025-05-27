@@ -429,7 +429,8 @@ li {
 
 #header-intro-text {
   width: 100%;
-  max-width: 570px;
+  /* max-width: 570px; */
+  max-width: 600px;
   padding-bottom: 40px;
   padding-left: 0px;
   -webkit-align-self: flex-start;
@@ -441,10 +442,15 @@ li {
   font-weight: 400;
 }
 
+#header-intro-text span {
+  white-space: nowrap;
+}
+
 #header-intro-paragraph .body {
   color: white;
   padding-left: 25%;
   margin-bottom: 40px;
+  max-width: calc(25% + 660px)
 }
 
 .div-block-14 {
@@ -747,7 +753,7 @@ li {
 .typeface {
   margin-bottom: 15px;
   color: #000;
-  font-size: 38px;
+  font-size: 36px;
   line-height: 1.1em;
 }
 
@@ -810,7 +816,7 @@ li {
 
 .font {
   padding-bottom: 10px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.1em;
 }
 
