@@ -263,7 +263,7 @@ li {
   color: #000;
   font-size: 12px;
   line-height: 1.35em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -281,7 +281,7 @@ li {
   font-family: Inputmono, monospace;
   font-size: 12px;
   line-height: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
   width: 85px;
@@ -583,7 +583,7 @@ li {
   min-width: 25%;
   font-family: Inputmono, sans-serif;
   font-size: 14px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .div-block-8 {
@@ -836,7 +836,7 @@ li {
 
 .typeface.inputmono {
   font-family: Inputmono, sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .typeface.georgia {
@@ -1090,7 +1090,7 @@ li {
 .backtotop {
   font-family: Inputmono, sans-serif;
   font-size: 14px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: #fff;
 }
 
