@@ -152,7 +152,6 @@
 
 a {
   color: #000;
-  text-decoration: none;
 }
 
 p:last-child {
@@ -555,7 +554,14 @@ li {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+}
+
+.link:not(:hover) {
   text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.75;
 }
 
 .link.header_1 {
@@ -563,20 +569,11 @@ li {
   line-height: 1.2em;
 }
 
-.link.header_1:hover {
-  opacity: 0.7;
-}
-
 .link.header_2 {
   padding-bottom: 8px;
   font-family: Moderat, sans-serif;
   font-size: 16px;
   font-weight: 400;
-}
-
-.link.header_2:hover {
-  opacity: 0.75;
-  color: #fff;
 }
 
 .updated-date {
@@ -1092,6 +1089,7 @@ li {
   font-size: 14px;
   letter-spacing: 0.08em;
   color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
