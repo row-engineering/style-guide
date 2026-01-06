@@ -316,7 +316,7 @@
               </div>
             </div>
             <div class="w-layout-grid do-s-and-don-ts-grid">
-              <div class="dos-and-donts body--2">
+              <div class="dos-and-donts addtl-info body--2">
                 <div class="do-s colorpalettedos">
                   <div class="dos-donts-heading">Dos</div>
                   <div class="list_item">Use the blues for large areas like module fills.</div>
@@ -390,7 +390,7 @@
               </div>
             </div>
             <div class="w-layout-grid do-s-and-don-ts-grid">
-              <div class="dos-and-donts body--2">
+              <div class="dos-and-donts addtl-info body--2">
                 <div class="do-s colorpalettedos">
                   <div class="dos-donts-heading">Dos</div>
                   <div class="list_item">The combination of the primary color, dark gray, darkest gray, and black are used in displaying article data: kicker/rubric, headline, dek, byline.</div>
@@ -514,7 +514,7 @@
               <div class="individualdiacriticdiv"><img src="images/diacritic-tilde.svg?1" loading="lazy" alt=""></div>
             </div>
             <div class="w-layout-grid do-s-and-don-ts-grid">
-              <div class="dos-and-donts body--2">
+              <div class="dos-and-donts addtl-info body--2">
                 <div class="do-s">
                   <div class="dos-donts-heading">Dos</div>
                   <div class="list_item">Create a pattern by limiting the use of diacritics within each viewport or experience.</div>
@@ -602,9 +602,9 @@
               <div class="body body--2">The hover state will always invert the current style (e.g. solid becomes outline), and the pressed state is the same as the hover state. The focus state adds a dashed 1px border around button.</div>
             </div>
             <div class="w-layout-grid grid-2">
-              <div class="code-block-section">
+              <div class="example-block-section">
                 <div class="_5_heading">Button Styles</div>
-                <pre class="code-block">
+                <pre class="example-block code-block">
 width: 85px;
 padding: 0 10px; /* 0 20px */
 border-radius: 3px;
@@ -614,10 +614,10 @@ transition: background-color ease-out 150ms,
             color ease-out 150ms;
                 </pre>
               </div>
-              <div class="code-block-section">
+              <div class="example-block-section">
                 <div class="_5_heading">Text Styles</div>
-                <pre class="code-block">
-font-family: Inputmono, monospace;
+                <pre class="example-block code-block">
+font-family: 'Input Mono', monospace;
 font-size: 12px;
 line-height: 30px;
 letter-spacing: .08em;
@@ -642,12 +642,63 @@ white-space: nowrap;
                 <div class="body">Body text<span class="font-style-details">Moderat Regular 16px</span></div>
               </div>
               <div>
-                <div class="code-block-section">
+                <div class="example-block-section">
                   <div class="_5_heading">Module Styles</div>
-                  <pre class="code-block">border-radius: 5px;
+                  <pre class="example-block code-block">border-radius: 5px;
 padding: 20px;
 background-color: #E4F3F7, #242EF7, #0B2566</pre>
+                  </pre>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="subsection_info">
+          <div class="description">
+            <div class="_3_heading">Links</div>
+            <div class="subsection_body">
+              <div class="body body--2">Links should be visually distinct, accessible, and consistent across the site. Underlines are our primary affordance for indicating links, with exceptions based on context and hierarchy.</div>
+            </div>
+            <div class="body w-layout-grid grid-2 bottom-margin">
+              <div class="example-block-section">
+                <div class="_4_heading">Inline Links</div>
+                <ul>
+                  <li>Links within paragraph text are always underlined.</li>
+                  <li>The default underline color is Cobalt #242EF7.</li>
+                  <li>An alternative underline color may be used only when background contrast makes Cobalt difficult to see.</li>
+                </ul>
+                <div class="example-block example-paragraph">
+                  But I think, <a href="#">Mr. Frodo</a>, I do understand. I know now. Folk in those stories had lots of chances of turning back. Only they didn’t, because they were holding on to something…That there’s some good in this world, Mr. Frodo. And it’s worth fighting for.
+                </div>
+              </div>
+              <div class="example-block-section">
+                <div class="_4_heading">Navigation and UI Links</div>
+                <ul>
+                  <li>Links within navigation menus, standalone UI elements, or recirculation headlines do not need to be underlined by default.</li>
+                  <li>In these contexts, hierarchy, placement, and typography are sufficient to indicate interactivity.</li>
+                </ul>
+                <div class="example-block example-navigation-block">
+                  <span class="input-mono meta">Beats</span>
+                  <div class="example-navigation">
+                    <a href="#">Tech Giants</a>
+                    <a href="#">China Outside China</a>
+                    <a href="#">EV Revolution</a>
+                    <a href="#">Innovation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body addtl-info">
+              <div class="_5_heading">Hover and Active States</div>
+              <div class="body body--2">
+                On hover, links should:
+                <ul>
+                  <li>show an underline</li>
+                  <li>change color (default hover color is Cobalt)</li>
+                  <li>apply a transition of <code>150ms ease</code> to the color change</li>
+                </ul>
+                <p>Exception: headlines and deks within recirculation components do not require an underline (e.g. Homepage or Most Popular module).</p>
+                <p>We do not support visited states.</p>
               </div>
             </div>
           </div>
