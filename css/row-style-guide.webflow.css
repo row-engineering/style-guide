@@ -1,3 +1,9 @@
+html {
+  --primary: #242EF7;
+  --pumice: #CACACA;
+  --ash: #555;
+}
+
 .category {
   padding-right: 40px;
   padding-left: 40px;
@@ -174,7 +180,7 @@ li {
 }
 
 .colorblock.cobalt {
-  background-color: #242EF7;
+  background-color: var(--primary);
 }
 
 .colorblock.glacier {
@@ -285,7 +291,7 @@ li {
   white-space: nowrap;
   width: 85px;
   padding: 0 10px;   /* 0 20px */
-  border: 1px solid #242EF7;
+  border: 1px solid var(--primary);
   cursor: pointer;
   transition: background-color ease-out 150ms, color ease-out 150ms;
 }
@@ -296,12 +302,12 @@ li {
 
 .button-solid button {
   color: white;
-  background-color: #242EF7;
+  background-color: var(--primary);
 }
 
 .button-solid button:hover,
 .button-solid.hover button {
-  color: #242EF7;
+  color: var(--primary);
   background-color: white;
 }
 
@@ -309,18 +315,18 @@ li {
 .button-outline button:focus,
 .button-solid.focus button,
 .button-outline.focus button {
-  outline: 1px dotted #242EF7;
+  outline: 1px dotted var(--primary);
 }
 
 .button-outline button {
-  color: #242EF7;
+  color: var(--primary);
   background-color: white;
 }
 
 .button-outline button:hover,
 .button-outline.hover button {
   color: white;
-  background-color: #242EF7;
+  background-color: var(--primary);
 }
 
 .code-block-section {
@@ -413,7 +419,7 @@ li {
 }
 
 .example-list-item {
-  background-color: #CACACA;
+  background-color: var(--pumice);
   max-width: 350px;
 }
 
@@ -437,7 +443,7 @@ li {
 }
 
 .close-btn.default svg {
-  fill: #242EF7;
+  fill: var(--primary);
 }
 
 .close-btn button:hover svg,
@@ -447,7 +453,7 @@ li {
 
 .close-btn button:focus,
 .close-btn.focus button {
-  outline: 1px dotted #242EF7;
+  outline: 1px dotted var(--primary);
 }
 
 .spaceholder {
@@ -494,7 +500,7 @@ li {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #242EF7;
+  background-color: var(--primary);
   color: #fff;
 }
 
@@ -752,7 +758,7 @@ li {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border-top: 1px solid #cacaca;
+  border-top: 1px solid var(--pumice);
 }
 
 .do-s {
@@ -783,7 +789,7 @@ li {
 .whitegrayblack {
   width: 100%;
   height: 80px;
-  border: 1px solid #cacaca;
+  border: 1px solid var(--pumice);
   background-color: #fff;
 }
 
@@ -792,7 +798,7 @@ li {
 }
 
 .whitegrayblack.lightgray {
-  background-color: #cacaca;
+  background-color: var(--pumice);
 }
 
 .whitegrayblack.mediumgray {
@@ -804,8 +810,25 @@ li {
 }
 
 .whitegrayblack._555 {
-  background-color: #555;
-  color: #555;
+  background-color: var(--ash);
+  color: var(--ash);
+}
+
+.moderat {
+  font-family: Moderat, sans-serif;
+}
+
+.moderat-bold {
+  font-family: Moderat, sans-serif;
+  font-weight: 700;
+}
+
+.georgia {
+  font-family: Georgia, serif;
+}
+
+.input-mono {
+  font-family: 'Input Mono', monospace;
 }
 
 .typefacegrid {
@@ -826,20 +849,6 @@ li {
   line-height: 1.1em;
 }
 
-.typeface.moderat {
-  font-family: Moderat, sans-serif;
-  font-weight: 700;
-}
-
-.typeface.inputmono {
-  font-family: Inputmono, sans-serif;
-  letter-spacing: 0.08em;
-}
-
-.typeface.georgia {
-  font-family: Georgia, sans-serif;
-}
-
 .typefacedescription {
   font-family: Moderat, sans-serif;
   color: #000;
@@ -849,7 +858,7 @@ li {
 
 .typefacedescription.combinationnotes {
   padding-top: 20px;
-  border-top: 1px solid #cacaca;
+  border-top: 1px solid var(--pumice);
 }
 
 .fontrolegroup {
@@ -861,7 +870,7 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid var(--ash);
 }
 
 .fontrolegroup:last-child {
@@ -889,23 +898,6 @@ li {
   line-height: 1.1em;
 }
 
-.font.moderat-bold {
-  font-family: Moderat, sans-serif;
-  font-weight: 700;
-}
-
-.font.moderat-regular {
-  font-family: Moderat, sans-serif;
-}
-
-.font.georgia {
-  font-family: Georgia, sans-serif;
-}
-
-.font.input-mono {
-  font-family: Inputmono, sans-serif;
-}
-
 .typefacerole_guidance {
   font-family: Moderat, sans-serif;
   color: #000;
@@ -916,7 +908,7 @@ li {
 .typefacerole_subheading {
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px dotted #cacaca;
+  border-bottom: 1px dotted var(--pumice);
   font-family: Moderat, sans-serif;
   font-size: 16px;
   line-height: 1.1em;
@@ -946,7 +938,7 @@ li {
 }
 
 .subsection_body.usage a {
-  color: #242EF7;
+  color: var(--primary);
   text-decoration: underline;
 }
 
@@ -1038,7 +1030,7 @@ li {
 .filenameheading {
   width: 100%;
   padding-bottom: 10px;
-  border-bottom: 1px dotted #cacaca;
+  border-bottom: 1px dotted var(--pumice);
   font-family: Moderat, sans-serif;
   font-size: 20px;
 }
@@ -1057,7 +1049,7 @@ li {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  background-color: #242EF7;
+  background-color: var(--primary);
 }
 
 .typefacerole_subheading4 {
@@ -1528,7 +1520,7 @@ li {
   font-display: auto;
 }
 @font-face {
-  font-family: 'Inputmono';
+  font-family: 'Input Mono';
   src: url('../fonts/InputMono-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
