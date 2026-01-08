@@ -12,16 +12,6 @@ body {
   background-color: var(--primary);
 }
 
-.color-background a {
-  color: white;
-  /* border-bottom-color: white; */
-}
-
-.color-background a:hover {
-  color: white;
-  opacity: .75;
-}
-
 .category {
   padding-right: 40px;
   padding-left: 40px;
@@ -176,13 +166,29 @@ body {
 
 a {
   color: #000;
-  /* text-decoration: none;
-  border-bottom: 1px solid var(--primary); */
-  transition: color 150ms ease-out;
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary);
+  transition: all 150ms ease-out;
 }
 
 a:hover {
   color: var(--primary);
+}
+
+a[href^="mailto"]:not(:hover) {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.color-background a {
+  color: white;
+  border-bottom: none;
+}
+
+.color-background a:hover {
+  color: white;
+  opacity: .75;
+  text-decoration: underline;
 }
 
 p:last-child {
@@ -208,10 +214,6 @@ code {
 .note {
   font-size: 14px;
 }
-
-/* .wordmark {
-  border-bottom: none;
-} */
 
 .colorblock {
   width: 100%;
@@ -486,8 +488,8 @@ code {
 }
 
 .example-navigation a:not(:hover) {
-  /* border-bottom-color: transparent; */
-  text-decoration: none;
+  border-bottom-color: transparent;
+  /* text-decoration: none; */
 }
 
 .example-list-item {
@@ -631,8 +633,8 @@ code {
 }
 
 .link:not(:hover) {
-  /* border-bottom-color: transparent; */
-  text-decoration: none;
+  border-bottom-color: transparent;
+  /* text-decoration: none; */
 }
 
 .link:hover {
@@ -1143,7 +1145,6 @@ code {
   font-size: 14px;
   letter-spacing: 0.08em;
   color: #fff;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
