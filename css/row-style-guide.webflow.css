@@ -493,9 +493,12 @@ code {
   margin-bottom: 15px;
 }
 
+.example-navigation a:last-child {
+  margin-bottom: 0;
+}
+
 .example-navigation a:not(:hover) {
   border-bottom-color: transparent;
-  /* text-decoration: none; */
 }
 
 .example-list-item {
@@ -640,7 +643,6 @@ code {
 
 .link:not(:hover) {
   border-bottom-color: transparent;
-  /* text-decoration: none; */
 }
 
 .link:hover {
